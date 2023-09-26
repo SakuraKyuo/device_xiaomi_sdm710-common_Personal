@@ -19,6 +19,9 @@ init.svc.ppd                                    u:object_r:vendor_dpps_prop:s0
 ro.vendor.display.ad                            u:object_r:vendor_dpps_prop:s0
 ro.vendor.display.sensortype                    u:object_r:vendor_dpps_prop:s0
 
+# Dolby
+persist.vendor.dolby.loglevel   u:object_r:vendor_dolby_loglevel_prop:s0
+
 # Fingerprint
 fpc_kpi                                         u:object_r:vendor_fp_prop:s0
 gf.debug.                                       u:object_r:vendor_fp_prop:s0
@@ -28,6 +31,7 @@ persist.vendor.sys.fp.                          u:object_r:vendor_fp_prop:s0
 ro.boot.fpsensor                                u:object_r:vendor_fp_prop:s0
 ro.hardware.fp                                  u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.                                 u:object_r:vendor_fp_prop:s0
+
 
 # MIUI specific
 ro.boot.factorybuild                            u:object_r:exported_default_prop:s0
