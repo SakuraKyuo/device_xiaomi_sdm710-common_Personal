@@ -167,7 +167,6 @@ on boot
     setprop vendor.usb.rmnet.inst.name "rmnet"
     setprop vendor.usb.dpl.inst.name "dpl"
     setprop vendor.usb.qdss.inst.name "qdss"
-    setprop sys.usb.configfs 1
 
 #start camera server as daemon
 #service qcamerasvr /system/bin/mm-qcamera-daemon
@@ -209,7 +208,6 @@ on boot
 
 on charger
     start vendor.power_off_alarm
-    setprop sys.usb.configfs 1
 
 ## import cne init file
 #on post-fs
